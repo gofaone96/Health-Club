@@ -1,0 +1,13 @@
+
+.container{
+    padding-bottom: 30%;
+}
+
+button {
+    background-color:#b204ac;
+    padding: auto auto;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 25px;
+}

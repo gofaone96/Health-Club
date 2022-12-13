@@ -1,0 +1,56 @@
+
+
+ /* .card{
+    height:1000vh;
+    width: 100vh;
+}
+
+img{
+    height: 100vh;
+}  */
+/* 
+.card{
+    width: 1000vh;
+    height: 1000vh;
+} */
+#imageonly {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png);
+  }
+  
+  /* linear gradient background */
+  #linear-gradient {
+    background: linear-gradient(black, white);
+  }
+  
+  /* radial gradient background */
+  #radial-gradient {
+    background: radial-gradient(circle, black, white);
+  }
+  
+  /*multiple background images */
+  
+  #multiimage {
+    background: 
+     url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/codepen.png) bottom center no-repeat,
+     url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png) repeat; 
+  }
+  
+  
+  
+  
+  /* styling for the Pen, unrelated to background */
+  body { font-family: sans-serif; }
+  
+  div {
+    width: 100%;
+    height: 1000px;
+  }
+  /* p {
+    background-image: url('[removal.ai]_1576831a-7c4e-4cb9-a069-86c28dfae072 (1).png');
+  } */
+  body {
+    background-image: url("https://img.freepik.com/premium-photo/black-dark-gray-abstract-cement-wall-studio-room-interior-texture-display-products-room-black-floor-is-made-dark-plaster-interior-decoration-gym-exercise_479694-49.jpg?w=2000");
+
+  }
+  
+ 
