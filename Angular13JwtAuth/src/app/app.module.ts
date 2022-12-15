@@ -13,6 +13,8 @@ import { BoardAdminComponent } from './board-admin/board-admin.component';
 import { BoardModeratorComponent } from './board-moderator/board-moderator.component';
 import { BoardUserComponent } from './board-user/board-user.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { CalculaterComponent } from './calculater/calculater.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -24,13 +26,15 @@ import { ExperienceComponent } from './experience/experience.component';
     BoardAdminComponent,
     BoardModeratorComponent,
     BoardUserComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    CalculaterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule
   ],
   providers:  [],
   bootstrap: [AppComponent]

@@ -1,0 +1,58 @@
+<!-- 
+<body ng-app="bmrApp">
+  <div class="container">
+    <div class="jumbotron" ng-controller="headerCtrl">
+      <h1 class="main-header">{{header}}</h1>
+      <span>by:</span><a href="http://www.petrusrex.com/" target="_blank"> {{mySite}}</a>
+      <hr>
+      <br>
+      <form ng-controller="mainCtrl">
+        <h3>Height(in):</h3><input ng-change="computeBMR()" ng-model="stats.heightUS">
+        <br>
+        <br>
+        <h3>Weight(lbs):</h3><input ng-change="computeBMR()" ng-model="stats.weightUS">
+        <br>
+        <br>
+        <h3>Age:</h3><input ng-change="computeBMR()" ng-model="stats.age">
+        <br>
+        <br>
+        <b>A Man Burns:</b>
+        <br>
+        <h3 class="result">{{stats.BmrMan}}</h3>
+        <br>
+        <b>A Woman Burns:</b>
+        <br>
+        <h3 class="result">{{stats.BmrWoman}}</h3>
+<br>        <button class="link mx-5" (click)="clickButton('ngSubmit')">NEXT<i class=""></i></button>
+        
+      </form>
+      </div>
+    </div>
+</body>  -->
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+  </head> 
+  <body>
+    <h3><b>W</b>hat <b>is </b>your <b>weight</b>& Height</h3>
+  <form class="form" id="form" onsubmit="return validateForm()">
+  <div class="row-one">
+    <input type="text" class="text-input" id="age" autocomplete="off" required/><p class="text">Age</p>
+    <label class="container">
+    
+    </label>
+    <label class="container">
+   
+    </label>
+    </div>
+  
+  <div class="row-two">
+    <input type="text" class="text-input" id="height" autocomplete="off" required><p class="text">Height (cm)</p>
+    <input type="text" class="text-input" id="weight" autocomplete="off" required><p class="text">Weight (kg)</p>
+  </div>
+  <button type="button" id="submit">Submit</button>
+  </form>
+
+
+
+  </body>

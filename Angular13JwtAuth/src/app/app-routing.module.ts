@@ -9,7 +9,7 @@ import { BoardUserComponent } from './board-user/board-user.component';
 import { BoardModeratorComponent } from './board-moderator/board-moderator.component';
 import { BoardAdminComponent } from './board-admin/board-admin.component';
 import { ExperienceComponent } from './experience/experience.component';
-
+import { CalculaterComponent } from './calculater/calculater.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent },
@@ -19,6 +19,7 @@ const routes: Routes = [
   { path: 'mod', component: BoardModeratorComponent },
   { path: 'admin', component: BoardAdminComponent },
   { path: 'experience', component: ExperienceComponent},
+  { path:  'calculator', component: CalculaterComponent},
   { path: '', redirectTo: 'home', pathMatch: 'full' }
 ];
 

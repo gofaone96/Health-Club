@@ -20,6 +20,6 @@ export class BoardUserComponent implements OnInit {
   {
     console.log(gender)
     // this.router.navigate(['/', 'page-name'])
-    this.router.navigate(['/'])
+    this.router.navigate(['/calculator'])
   }
 }
